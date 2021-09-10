@@ -10,19 +10,10 @@
     <title>Vue.js</title>
 </head>
 <body>
-    <!-- <div id="placar">
-        <div>{{n}}</div>
-        <span v-if="aparecer">Parabéns, Você Passou de 5 Pontos :) </span>
-    </div> -->
-
-    <div id="lista">
-        <ul>
-            <li v-for="info in nomes">
-                <span>Sr.</span>
-                <span v-text="info.nome"></span>
-                <span>{{info.sobrenome}}</span>
-            </li>
-        </ul>
+    <div id="app">
+        <span>{{n1}}</span>
+       <input type="text" v-model="n2"/> 
+       <span>{{ n1 + parseInt(n2) }}</span> 
     </div>
 
 

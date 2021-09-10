@@ -1,19 +1,7 @@
-// let placar = new Vue ({
-//     el: '#placar',
-//     data: {
-//         n: 0,
-//         aparecer: true
-//     }
-// });
-
-let lista = new Vue({
-    el:'#lista',
+let app = new Vue({
+    el: "#app",
     data: {
-        nomes: [
-            {nome:'Adriano', sobrenome: 'Misina', idade: 39},
-            {nome:'Kenzo', sobrenome: 'Takeshi', idade: 04},
-            {nome:'Jane', sobrenome: 'Costa', idade: 33},
-            {nome:'Melissa', sobrenome: 'Docinho', idade: 08},
-        ]
+        n1:10,
+        n2:15
     }
-})
+});
