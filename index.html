@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Vue JS - CDNs -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <title>Vue.js</title>
+</head>
+<body>
+    <!-- <div id="placar">
+        <div>{{n}}</div>
+        <span v-if="aparecer">Parabéns, Você Passou de 5 Pontos :) </span>
+    </div> -->
+
+    <div id="lista">
+        <ul>
+            <li v-for="info in nomes">
+                <span>Sr.</span>
+                <span v-text="info.nome"></span>
+                <span>{{info.sobrenome}}</span>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
